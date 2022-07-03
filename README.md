@@ -10,7 +10,7 @@
 ![Полученные результаты](images/img.png)
 
 ## Модель
-Для решения задачи была выбрана модель Unet <br />
+Для решения задачи была выбрана архитектура Unet <br />
 ```python
 class Conv_block(nn.Module):
   def __init__(self, in_channels, out_channels):
